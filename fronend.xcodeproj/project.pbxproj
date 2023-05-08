@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A81EF8AD7AF3543C5D8EE5 /* Pods_fronend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690C3A94472EBA4F3062167F /* Pods_fronend.framework */; };
 		5480DF992A083E2000318314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DF982A083E2000318314 /* AppDelegate.swift */; };
 		5480DF9B2A083E2000318314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DF9A2A083E2000318314 /* SceneDelegate.swift */; };
-		5480DF9D2A083E2000318314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DF9C2A083E2000318314 /* ViewController.swift */; };
-		5480DFA02A083E2000318314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5480DF9E2A083E2000318314 /* Main.storyboard */; };
 		5480DFA22A083E2300318314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5480DFA12A083E2300318314 /* Assets.xcassets */; };
 		5480DFA52A083E2300318314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5480DFA32A083E2300318314 /* LaunchScreen.storyboard */; };
+		5480DFB12A08400D00318314 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFB02A08400D00318314 /* Post.swift */; };
+		5480DFB32A08416300318314 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFB22A08416300318314 /* LoginViewController.swift */; };
+		5480DFB62A08444600318314 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFB52A08444600318314 /* UIView+Extensions.swift */; };
+		5480DFB82A0848D500318314 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFB72A0848D500318314 /* LoginService.swift */; };
+		5480DFBA2A084CDD00318314 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFB92A084CDD00318314 /* TabViewController.swift */; };
+		5480DFBC2A084D3300318314 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFBB2A084D3300318314 /* PostsViewController.swift */; };
+		5480DFBE2A084D5000318314 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFBD2A084D5000318314 /* NewPostViewController.swift */; };
+		5480DFC02A084D6400318314 /* SinglePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFBF2A084D6400318314 /* SinglePostViewController.swift */; };
+		5480DFC22A084F7A00318314 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFC12A084F7A00318314 /* PostsViewModel.swift */; };
+		5480DFC42A0851A000318314 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFC32A0851A000318314 /* ServerService.swift */; };
+		5480DFC72A08CBFE00318314 /* SetMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFC62A08CBFE00318314 /* SetMapViewController.swift */; };
+		5480DFC92A08CC7A00318314 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFC82A08CC7900318314 /* LocationManager.swift */; };
+		5480DFCC2A090FC400318314 /* UserPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFCB2A090FC400318314 /* UserPostsViewController.swift */; };
+		5480DFCE2A09105B00318314 /* UserPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFCD2A09105B00318314 /* UserPostsViewModel.swift */; };
+		5480DFD02A09111400318314 /* PostUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFCF2A09111400318314 /* PostUpload.swift */; };
+		5480DFD72A0965EF00318314 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFD62A0965EF00318314 /* MapViewController.swift */; };
+		5480DFD92A09921800318314 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480DFD82A09921800318314 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5480DF952A083E2000318314 /* fronend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fronend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5480DF982A083E2000318314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5480DF9A2A083E2000318314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5480DF9C2A083E2000318314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5480DF9F2A083E2000318314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5480DFA12A083E2300318314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5480DFA42A083E2300318314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5480DFA62A083E2300318314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5480DFB02A08400D00318314 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5480DFB22A08416300318314 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5480DFB52A08444600318314 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		5480DFB72A0848D500318314 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		5480DFB92A084CDD00318314 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		5480DFBB2A084D3300318314 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		5480DFBD2A084D5000318314 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		5480DFBF2A084D6400318314 /* SinglePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePostViewController.swift; sourceTree = "<group>"; };
+		5480DFC12A084F7A00318314 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		5480DFC32A0851A000318314 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		5480DFC62A08CBFE00318314 /* SetMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMapViewController.swift; sourceTree = "<group>"; };
+		5480DFC82A08CC7900318314 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5480DFCB2A090FC400318314 /* UserPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsViewController.swift; sourceTree = "<group>"; };
+		5480DFCD2A09105B00318314 /* UserPostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsViewModel.swift; sourceTree = "<group>"; };
+		5480DFCF2A09111400318314 /* PostUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUpload.swift; sourceTree = "<group>"; };
+		5480DFD62A0965EF00318314 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5480DFD82A09921800318314 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		690C3A94472EBA4F3062167F /* Pods_fronend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fronend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851C6DA13CD087ECDE4B525D /* Pods-fronend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fronend.release.xcconfig"; path = "Target Support Files/Pods-fronend/Pods-fronend.release.xcconfig"; sourceTree = "<group>"; };
+		D4FE745FAB76A3BFC18180B6 /* Pods-fronend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fronend.debug.xcconfig"; path = "Target Support Files/Pods-fronend/Pods-fronend.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A81EF8AD7AF3543C5D8EE5 /* Pods_fronend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				5480DF972A083E2000318314 /* fronend */,
 				5480DF962A083E2000318314 /* Products */,
+				5786364F80A07F6A20D38517 /* Pods */,
+				DF0BF2A0F67FA186E6ADAEC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,111 @@
 		5480DF972A083E2000318314 /* fronend */ = {
 			isa = PBXGroup;
 			children = (
+				5480DFB42A08443000318314 /* Extensions */,
+				5480DFAF2A083FF500318314 /* Services */,
+				5480DFAE2A083FEE00318314 /* ViewModel */,
+				5480DFAD2A083FE000318314 /* ViewControllers */,
+				5480DFAC2A083FDA00318314 /* Model */,
 				5480DF982A083E2000318314 /* AppDelegate.swift */,
 				5480DF9A2A083E2000318314 /* SceneDelegate.swift */,
-				5480DF9C2A083E2000318314 /* ViewController.swift */,
-				5480DF9E2A083E2000318314 /* Main.storyboard */,
 				5480DFA12A083E2300318314 /* Assets.xcassets */,
 				5480DFA32A083E2300318314 /* LaunchScreen.storyboard */,
 				5480DFA62A083E2300318314 /* Info.plist */,
 			);
 			path = fronend;
+			sourceTree = "<group>";
+		};
+		5480DFAC2A083FDA00318314 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFB02A08400D00318314 /* Post.swift */,
+				5480DFCF2A09111400318314 /* PostUpload.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5480DFAD2A083FE000318314 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFB92A084CDD00318314 /* TabViewController.swift */,
+				5480DFCA2A090F9D00318314 /* LoginVC */,
+				5480DFD52A09592400318314 /* PostsVC */,
+				5480DFC52A08CBE000318314 /* MyPostsVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5480DFAE2A083FEE00318314 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFC12A084F7A00318314 /* PostsViewModel.swift */,
+				5480DFCD2A09105B00318314 /* UserPostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5480DFAF2A083FF500318314 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFB72A0848D500318314 /* LoginService.swift */,
+				5480DFC32A0851A000318314 /* ServerService.swift */,
+				5480DFC82A08CC7900318314 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5480DFB42A08443000318314 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFB52A08444600318314 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5480DFC52A08CBE000318314 /* MyPostsVC */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFCB2A090FC400318314 /* UserPostsViewController.swift */,
+				5480DFBD2A084D5000318314 /* NewPostViewController.swift */,
+				5480DFC62A08CBFE00318314 /* SetMapViewController.swift */,
+			);
+			path = MyPostsVC;
+			sourceTree = "<group>";
+		};
+		5480DFCA2A090F9D00318314 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFB22A08416300318314 /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		5480DFD52A09592400318314 /* PostsVC */ = {
+			isa = PBXGroup;
+			children = (
+				5480DFBB2A084D3300318314 /* PostsViewController.swift */,
+				5480DFBF2A084D6400318314 /* SinglePostViewController.swift */,
+				5480DFD62A0965EF00318314 /* MapViewController.swift */,
+				5480DFD82A09921800318314 /* PostCell.swift */,
+			);
+			path = PostsVC;
+			sourceTree = "<group>";
+		};
+		5786364F80A07F6A20D38517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4FE745FAB76A3BFC18180B6 /* Pods-fronend.debug.xcconfig */,
+				851C6DA13CD087ECDE4B525D /* Pods-fronend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF0BF2A0F67FA186E6ADAEC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690C3A94472EBA4F3062167F /* Pods_fronend.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5480DFA92A083E2300318314 /* Build configuration list for PBXNativeTarget "fronend" */;
 			buildPhases = (
+				739BF3D3918F62D9D5141085 /* [CP] Check Pods Manifest.lock */,
 				5480DF912A083E2000318314 /* Sources */,
 				5480DF922A083E2000318314 /* Frameworks */,
 				5480DF932A083E2000318314 /* Resources */,
+				AF3F7300AF519DF641EBC1B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +262,76 @@
 			files = (
 				5480DFA52A083E2300318314 /* LaunchScreen.storyboard in Resources */,
 				5480DFA22A083E2300318314 /* Assets.xcassets in Resources */,
-				5480DFA02A083E2000318314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		739BF3D3918F62D9D5141085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fronend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3F7300AF519DF641EBC1B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fronend/Pods-fronend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fronend/Pods-fronend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fronend/Pods-fronend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5480DF912A083E2000318314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5480DF9D2A083E2000318314 /* ViewController.swift in Sources */,
+				5480DFC02A084D6400318314 /* SinglePostViewController.swift in Sources */,
+				5480DFB32A08416300318314 /* LoginViewController.swift in Sources */,
+				5480DFCC2A090FC400318314 /* UserPostsViewController.swift in Sources */,
+				5480DFD72A0965EF00318314 /* MapViewController.swift in Sources */,
+				5480DFC42A0851A000318314 /* ServerService.swift in Sources */,
+				5480DFB82A0848D500318314 /* LoginService.swift in Sources */,
+				5480DFB12A08400D00318314 /* Post.swift in Sources */,
+				5480DFC72A08CBFE00318314 /* SetMapViewController.swift in Sources */,
+				5480DFCE2A09105B00318314 /* UserPostsViewModel.swift in Sources */,
+				5480DFB62A08444600318314 /* UIView+Extensions.swift in Sources */,
+				5480DFBC2A084D3300318314 /* PostsViewController.swift in Sources */,
+				5480DFBE2A084D5000318314 /* NewPostViewController.swift in Sources */,
+				5480DFC22A084F7A00318314 /* PostsViewModel.swift in Sources */,
+				5480DFD92A09921800318314 /* PostCell.swift in Sources */,
+				5480DFC92A08CC7A00318314 /* LocationManager.swift in Sources */,
 				5480DF992A083E2000318314 /* AppDelegate.swift in Sources */,
+				5480DFBA2A084CDD00318314 /* TabViewController.swift in Sources */,
+				5480DFD02A09111400318314 /* PostUpload.swift in Sources */,
 				5480DF9B2A083E2000318314 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +339,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5480DF9E2A083E2000318314 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5480DF9F2A083E2000318314 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5480DFA32A083E2300318314 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +466,7 @@
 		};
 		5480DFAA2A083E2300318314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FE745FAB76A3BFC18180B6 /* Pods-fronend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +477,6 @@
 				INFOPLIST_FILE = fronend/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +494,7 @@
 		};
 		5480DFAB2A083E2300318314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851C6DA13CD087ECDE4B525D /* Pods-fronend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +505,6 @@
 				INFOPLIST_FILE = fronend/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
